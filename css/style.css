@@ -126,6 +126,10 @@ select{
     font-style: italic;
 }
 
+.content-image1{
+    padding: 70px;
+}
+
 .content-image1 span{
     font-style: italic;
     color: lightgray;
@@ -143,27 +147,77 @@ select{
     justify-content: right;
 }
 
-.circle{
+.circle h2{ 
     display: flex;
     background: lightgray;
     border-radius: 50%;
     width: 1.2em;
     justify-content: center;
+    color: gray;
 }
 
-.description h4 {
-    padding: 25px;
-    margin-right: 20cm;
+.line hr{
+   color: lightgray;
+   margin-right: 20cm ;
+}
+
+.description{
+    padding: 30px;
+    margin-right: 15cm;
+}
+
+.our-products{
+    padding: 30px;
+    margin-right: 15cm;
 }
 
 .our-products span{
     float: left;
 }
 
-.circle-2{
+.circle h3{
+    color: gray;
+}
+
+.image1-small{
+    float: left;
+    margin: 5px;
+    width: 10%;
+}
+
+.image2-small{
+    float: left;
+    margin: 5px;
+    width: 15%;
+    margin-right: 15cm;
+}
+
+.circle2{
+    display: flex;
+    flex-direction: column;
+}
+
+.circle li{
     display: flex;
     background: lightgray;
     border-radius: 50%;
     width: 1.2em;
-    justify-content: center; 
+    justify-content: center;
+    color: gray; 
+    padding: 15px;
+}
+
+.isi1{
+    color: grey;
+    font-style: bold;
+}
+
+.isi2{
+    color: grey;
+    font-style: bold;
+}
+
+.isi3{
+    color: grey;
+    font-style: bold;
 }
